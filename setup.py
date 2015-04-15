@@ -1,6 +1,7 @@
 ''' s0lst1c3 - TitleBar '''
 
 from setuptools import setup
+import os
 
 
 def read(*paths):
