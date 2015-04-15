@@ -2,17 +2,17 @@ language: python
 sudo: false
 python: 2.7
 env:
-	- TOX_ENV=py26
-	- TOX_ENV=py27
-	- TOX_ENV=flake8
-	- TOX_ENV=manifest
+    - TOX_ENV=py26
+    - TOX_ENV=py27
+    - TOX_ENV=flake8
+    - TOX_ENV=manifest
 
 install:
-	- pip install tox coveralls
+    - pip install tox coveralls
 
 script:
-	- tox --hashseed 0 -e $TOX_ENV
+    - tox --hashseed 0 -e $TOX_ENV
 
 after_success:
-	- coveralls
+    - coveralls
 
