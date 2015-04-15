@@ -1,0 +1,6 @@
+titlebar.egg-info
+.tox
+.coverage
+.tests/certs
+dist
+*.pyc
