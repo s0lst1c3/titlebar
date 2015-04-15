@@ -15,7 +15,7 @@ setup(
     long_description=('\n\n'.join([
                     read('README.rst'),
                     read('HISTORY.rst'),
-                    read('AUTHORS.rst')]),
+                    read('AUTHORS.rst')])),
     url='https://github.com/s0lst1c3/titlebar',
     license='MIT',
     author='John Gabriel Ryan',
