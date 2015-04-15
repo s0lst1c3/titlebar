@@ -11,7 +11,7 @@ def read(*paths):
 setup(
     name='titlebar',
     version='0.1.0',
-    description='Easy to use dynamic titlebar module for command line utils.'
+    description='Easy to use dynamic titlebar module for command line utils.',
     long_description=('\n\n'.join([
                     read('README.rst'),
                     read('HISTORY.rst'),
