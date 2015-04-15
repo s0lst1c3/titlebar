@@ -3,6 +3,11 @@ from struct import pack, unpack
 from fcntl import ioctl
 from termios import TIOCGWINSZ
 
+__version__ = '0.1.0'
+__author__ = 'John Ryan'
+__license__ = 'MIT'
+__copyright__ = 'Copyright 2015-2016 John Ryan'
+
 class TitleBar:
     
     def __init__(self, clear_screen=False, space_char='#'):
